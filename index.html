@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moses Omwoyo Tumbo — Creative Graphic Designer</title>
+  <meta name="description" content="One-page digital CV for Moses Omwoyo Tumbo: Creative Graphic Designer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    /* Base styles */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #d4af37; /* subtle gold divider */
+  padding-bottom: 0.25rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Buttons & Links */
+button, a {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.75rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  p, li {
+    font-size: 0.95rem;
+  }
+  button, a {
+    width: 100%; /* full-width tap targets */
+    text-align: center;
+  }
+}
+    :root{
+      --bg:#0b0b0b;
+      --text:#f5f5f5;
+      --muted:#b9b9b9;
+      --gold:#d4af37;
+      --card:#111213;
+      --accent:#e6c65b;
+      --maxw:960px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background:var(--bg); color:var(--text);
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; line-height:1.6;
+      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    }
+    a{color:var(--gold); text-decoration:none}
+    a:hover{color:var(--accent)}
+    .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+    header{border-bottom:1px solid #1c1c1c; background:linear-gradient(180deg,#0b0b0b 0%, #0f0f0f 100%)}
+    .hero{padding:72px 0 48px}
+    .name{font-family:"Playfair Display", serif; font-weight:700; font-size:42px; margin:0 0 8px}
+    .title{color:var(--muted); font-size:18px; margin:0 0 16px}
+    .tags{display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 24px}
+    .tag{border:1px solid #2a2a2a; color:var(--muted); padding:6px 10px; border-radius:999px; font-size:12px}
+    .actions{display:flex; flex-wrap:wrap; gap:12px}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 16px; border-radius:8px; border:1px solid #2a2a2a; color:var(--text); background:transparent; cursor:pointer; font-weight:500; transition:all .2s ease}
+    .btn.primary{background:var(--gold); color:#0b0b0b; border-color:var(--gold)}
+    .btn:hover{transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,0.25)}
+    section{padding:36px 0; border-bottom:1px solid #151515}
+    h2{font-size:18px; letter-spacing:1px; text-transform:uppercase; color:var(--gold); margin:0 0 16px; font-weight:700}
+    .card{background:var(--card); border:1px solid #171717; border-radius:12px; padding:20px}
+    .list{list-style:none; padding:0; margin:0; display:grid; gap:12px}
+    .item-title{font-weight:600}
+    .muted{color:var(--muted)}
+    .two-col{display:grid; grid-template-columns:1fr; gap:12px}
+    @media(min-width:700px){ .two-col{grid-template-columns:1fr 1fr} }
+    footer{padding:28px 0; color:var(--muted); text-align:center}
+    .small{font-size:13px}
+    .grid{display:grid; gap:24px; grid-template-columns:1fr; margin:36px 0 0}
+    @media(min-width:900px){ .grid{grid-template-columns:1.2fr .8fr} }
+  </style>
+</head>
+<body>
+  <header role="banner">
+    <div class="wrap hero">
+      <h1 class="name">Moses Omwoyo Tumbo</h1>
+      <p class="title">Creative Graphic Designer</p>
+
+      <div class="tags" aria-label="Key skills">
+        <span class="tag">Adobe Photoshop</span>
+        <span class="tag">Adobe Illustrator</span>
+        <span class="tag">Branding</span>
+        <span class="tag">Motion Graphics</span>
+        <span class="tag">UI Design</span>
+      </div>
+
+      <div class="actions" aria-label="Primary actions">
+        <a class="btn primary" href="Moses_Omwoyo_Tumbo_CV.pdf" download>Download CV (PDF)</a>
+        <a class="btn" href="mailto:omwoyotumbo@gmail.com" aria-label="Email Moses">Email</a>
+        <a class="btn" href="#" aria-label="LinkedIn profile">LinkedIn (add URL)</a>
+        <a class="btn" href="#contact" aria-label="Scroll to contact">Contact details</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" role="main">
+    <div class="grid">
+      <section aria-labelledby="objective-h">
+        <h2 id="objective-h">Career objective</h2>
+        <div class="card">
+          <p>
+            Highly motivated, conscientious, and competent collaborator with in-depth expertise in Graphic Design.
+            Proven track record of achievement, bringing positivity, support, and a creative mindset to every team.
+            More than 4 years in similar roles; takes ownership of challenging problems, maintains high standards,
+            and supports commercial objectives through design.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="personal-h">
+        <h2 id="personal-h">Personal info</h2>
+        <div class="card">
+          <ul class="list two-col">
+            <li>
+              <span class="item-title">Phone</span><br>
+              <a href="tel:+254710125350">+254 710 125 350</a>
+            </li>
+            <li>
+              <span class="item-title">Email</span><br>
+              <a href="mailto:omwoyotumbo@gmail.com">omwoyotumbo@gmail.com</a>
+            </li>
+            <li>
+              <span class="item-title">LinkedIn</span><br>
+              <span class="muted">Username: mosestumbo (add URL)</span>
+            </li>
+            <li>
+              <span class="item-title">Nationality</span><br>
+              <span class="muted">Kenyan</span>
+            </li>
+            <li>
+              <span class="item-title">Languages</span><br>
+              <span class="muted">English, Swahili</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <section aria-labelledby="skills-h">
+      <h2 id="skills-h">Technical skills</h2>
+      <div class="card">
+        <ul class="list two-col">
+          <li><span class="item-title">Adobe Photoshop (Ps)</span></li>
+          <li><span class="item-title">Adobe Illustrator (Ai)</span></li>
+          <li><span class="item-title">Adobe InDesign (Id)</span></li>
+          <li><span class="item-title">Adobe XD (Xd)</span></li>
+          <li><span class="item-title">Adobe After Effects (Ae)</span></li>
+          <li><span class="item-title">Adobe Premiere Pro (Pr)</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="experience-h">
+      <h2 id="experience-h">Experience</h2>
+      <div class="card">
+        <ul class="list">
+          <li>
+            <span class="item-title">Graphic Designer — Unity Homes</span><br>
+            <span class="muted">2022 – Present • ~3 years 11 months</span><br>
+            <span class="muted">
+              Create artwork for brand communication; develop campaign assets; collaborate on presentations and infographics;
+              update marketing materials; manage CMS/social tools for pages, email marketing, and website; capture photo/video
+              content for marketing.
+            </span>
+          </li>
+          <li>
+            <span class="item-title">Graphic Designer — Optiven Real Estate</span><br>
+            <span class="muted">2020 – 2022 • ~2 years</span><br>
+            <span class="muted">
+              Actualize monthly digital calendar designs; develop creative assets for digital/print across Optiven and sub-brands;
+              create campaigns with marketing teams to acquire customers and improve experience; manage projects, deadlines,
+              and brand integrity across stakeholders.
+            </span>
+          </li>
+          <li>
+            <span class="item-title">Graphic Designer — Miraba Creative Studio</span><br>
+            <span class="muted">2018 – 2020 • ~2 years</span><br>
+            <span class="muted">
+              Take client briefs and deliver; digital marketing; design graphics; manage social media and ads; oversee printing
+              and delivery; recordkeeping; prospect new clients.
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="education-h">
+      <h2 id="education-h">Education</h2>
+      <div class="card">
+        <ul class="list">
+          <li>
+            <span class="item-title">Bachelor of Arts — Maseno University</span><br>
+            <span class="muted">2014 – Present</span>
+          </li>
+          <li>
+            <span class="item-title">Kenya Certificate of Secondary Education (KCSE) — Segero Adventist School</span><br>
+            <span class="muted">2010 – 2013 • B+ Grade</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="certs-h">
+      <h2 id="certs-h">Certifications</h2>
+      <div class="card">
+        <ul class="list">
+          <li>
+            <span class="item-title">Certificate in Graphic Design — Alison</span><br>
+            <span class="muted">2021</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="skills2-h">
+      <h2 id="skills2-h">Skills</h2>
+      <div class="card">
+        <ul class="list two-col">
+          <li><span class="item-title">Concept Ideation</span></li>
+          <li><span class="item-title">UI Design</span></li>
+          <li><span class="item-title">Layout</span></li>
+          <li><span class="item-title">GIF Design</span></li>
+          <li><span class="item-title">Illustration</span></li>
+          <li><span class="item-title">Designing for Print</span></li>
+          <li><span class="item-title">Branding</span></li>
+          <li><span class="item-title">Product Packaging</span></li>
+          <li><span class="item-title">Typography</span></li>
+          <li><span class="item-title">Video Editing</span></li>
+          <li><span class="item-title">Logo Creation</span></li>
+          <li><span class="item-title">Motion Graphics</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Referees</h2>
+      <div class="card">
+        <ul class="list two-col">
+          <li>
+            <span class="item-title">Mark Gathige — Supervisor Creative Designs, Optiven Limited</span><br>
+            <span class="muted">Email: <a href="mailto:gathigemark@gmail.com">gathigemark@gmail.com</a> • Phone: <a href="tel:+254713888721">0713 888 721</a></span>
+          </li>
+          <li>
+            <span class="item-title">Samuel Maangi — Strategic Communication, Africa Practice</span><br>
+            <span class="muted">Email: <a href="mailto:smaangi@africapractice.com">smaangi@africapractice.com</a> • Phone: <a href="tel:+254714924041">0714 924 041</a></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="wrap">
+      <p class="small">© 2025 Moses Omwoyo Tumbo • Minimalist CV</p>
+    </div>
+  </footer>
+</body>
+</html>
